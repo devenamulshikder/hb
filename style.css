@@ -7,18 +7,14 @@
   body {
     background-color: #fdbf00;
   }
-  .container{
-    display: flex;
-    margin-left: 200px;
-
-  }
+   
   .card {
     width: 640px;
     height: 400px;
     position: absolute;
     margin: auto;
     left: 0;
-    right: 0;
+    right: 20%;
     top: 0;
     bottom: 0;
     -webkit-perspective: 1200px;
