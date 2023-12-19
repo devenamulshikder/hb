@@ -21,6 +21,19 @@
     perspective: 1200px;
     transition: 1s;
   }
+  @media screen and (max-width: 576px) {
+     .card{
+         
+        left: -61%;
+     }
+  }
+  .click-me{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+  }
   .card:hover {
     transform: rotate(-5deg);
   }
